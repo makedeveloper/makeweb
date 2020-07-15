@@ -38,7 +38,7 @@ body{
    }
    .topnav {
     overflow: hidden;
-    background-color: #753d59;
+    background-color:transparent;
     margin-top: 90px ;
     position: relative;
     
@@ -54,9 +54,35 @@ body{
     font-size: 17px;
   }
   
-  
-  
 
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+   
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 50px;
+    font-size: 17px;
+    border: none;
+    height:50px;
+    width:255px;
+  }
+  
+  .topnav .search-container button {
+    
+    
+    padding: 6px 20px;
+    margin-top: 6px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 20px;
+    border: none;
+    height:50px;
+    cursor: pointer;
+    
+  }
 .tm-categories-container {
     display: flex;
     align-items: center;
@@ -228,7 +254,7 @@ footer .Harsh{
     }
     .tm-container-2 {
         max-width: 1170px;
-        margin-top: 150px;
+        margin-top: 100px;
 
     }
 }
