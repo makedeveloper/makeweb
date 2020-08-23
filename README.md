@@ -1,48 +1,68 @@
-# Make Developer
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Make Developer is a platform to provide equal opportunities to all the students interested in improving ,
-testing , showcasing their development skills.It is a platform where students can make a team for their projects 
-or can be a part of a project in which they are interested.
+## Available Scripts
 
+In the project directory, you can run:
 
-## Features Included in  Make Developer
+### `npm start`
 
-* Runway
-* Resources 
-* Projects : Make Developer will provide such a platform where one can add a project , show interest in contributing other projects and thus we will try our best to create best team so that everyone associated with this will get benefitted.
-* Q & A :  Make Developer  has a Q&A section where skilled developers , mentors even students who had followed the same problem and able to come out of it will be always ready to help you in completing your journey.
-* Blogs : 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Installation For Backend
+### `npm test`
 
-Visit Github page : https://makedeveloper.github.io/makeweb-frontend/
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation For Backend
+### `npm run build`
 
-Please install [nodejs](https://nodejs.org/en/download/) and [mongoDB](https://www.mongodb.com/try/download/community) on your system, otherwise you will not be able to run the backend and ajax wont work. Along with that, if you want to see the data that is being stored in the database, install [mongoDB compass](https://www.mongodb.com/try/download/compass)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-To run Backend 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-```bash
-clone this repo 
-```
-Then run this command in the cloned directory
-```bash
-set jwtPrivateKey=SecureKey //for windows
-export jwtPrivateKey=SecureKey //for linux and mac
-node --no-deprecation index.js
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Application will run on port 4500
+### `npm run eject`
 
-URL: http://localhost:4500/
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## This is basic UI for the front page
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![makeproject 001](https://user-images.githubusercontent.com/43684300/86630089-ffe98280-bfe9-11ea-92df-9eb525aecb9d.jpeg)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## This is our basic UI for the project page
+## Learn More
 
-![makeproject 003](https://user-images.githubusercontent.com/43684300/86630637-b8afc180-bfea-11ea-8400-7cca4d9a5cf0.jpeg)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
