@@ -12,7 +12,7 @@ import Signup from './pages/Signup.js'
 import Header from './pages/layout/Header.js'
 import Footer from './pages/layout/Footer.js'
 import Profile from './pages/Profile.js'
-
+import NotFound from './pages/NotFound.js'
 import './assets/css/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,6 +28,7 @@ function App() {
           <ProtectedRoute path='/profile'>
             <Profile />
           </ProtectedRoute>
+          <Route component={NotFound} />
         </Switch>
         <Route component={Footer} />
       </Router>

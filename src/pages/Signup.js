@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom' 
 import { Form, Col, Button } from 'react-bootstrap'
 import { Formik, Form as Fm, Field, ErrorMessage } from 'formik'
 import * as yup from 'yup'
@@ -11,7 +12,7 @@ function Signup() {
 
 
     //global state
-    const setLogin = useSetRecoilState(sg)
+    const setSignin = useSetRecoilState(sg)
 
     //redirect back to signup page if number is not set, or direct access
 
@@ -38,7 +39,7 @@ function Signup() {
             values.password = values.password1
             const response = await Axios.post('/register', values,)
             console.log({ response })
-            setLogin(true)
+            setSignin(true)
         } catch (error) {
             if (error.response && (error.response.status === 500)) {
                 console.log("500 response from server", error)
@@ -57,6 +58,7 @@ function Signup() {
                         <div className="col-lg-6 ">
                             <div className="leftDiv">
                                 <h1>Signup Here</h1>
+                                <h1><Link to="/signin">Or Signin</Link></h1>
                                 <Formik
                                     validationSchema={schema}
                                     onSubmit={onSubmit}

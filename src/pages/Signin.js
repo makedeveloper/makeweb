@@ -62,8 +62,8 @@ function Signin() {
                         <button tabIndex="3" type='submit'  >Signin</button>
                     </div>
                     <div className="forgot">
-                        <Link tabIndex="4" to="/"> </Link>
-                        <Link tabIndex="5" to="/signup"></Link>
+                        <Link tabIndex="4" to="/">Forgot Password?</Link>
+                        <Link tabIndex="5" to="/signup">No Accout? Create one!</Link>
                     </div>
                 </form>
             </div>
